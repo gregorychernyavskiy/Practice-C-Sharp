@@ -1,0 +1,5 @@
+1. Create a Dictionary<string, List<string>> map = new Dictionary<string, List<string>>(); to group anagrams by their sorted version.
+2. Loop through each string str in the input array strs. Convert str to a char[], sort it, and create a new string sorted from the sorted characters.
+3. If map doesn’t contain the key sorted, add it with an empty list: map[sorted] = new List<string>();.
+4. Add the original str to the list at map[sorted].
+5. After processing all strings, return a new List<IList<string>> from the dictionary values: new List<IList<string>>(map.Values);.

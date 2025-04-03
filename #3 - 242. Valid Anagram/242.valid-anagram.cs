@@ -19,7 +19,7 @@ public class Solution {
         foreach(char tch in t) {
             if(map.ContainsKey(tch)) {
                 map[tch]--;
-                if(map[tch] < 1) {
+                if(map[tch] < 0) {
                     return false;
                 }
             } else {
