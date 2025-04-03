@@ -1,0 +1,3 @@
+1. Create a HashSet<int> set = new HashSet<int>();
+2. Iterate through the array foreach(int num in nums), then do set.Add(num) to add the numbers, but before that have an if statement to check if set.Contains(num).
+3. If set.Contains(num), return true, otherwise exist the loop and return false.
