@@ -1,0 +1,7 @@
+1. In the SortArray method, call a helper MergeSort function with the full range of the array (0 to nums.Length - 1).
+2. In MergeSort, check if the subarray has only one element (L == R). If so, return the array as is.
+3. Otherwise, calculate the middle index M = (L + R) / 2, and recursively call MergeSort on the left half (L to M) and right half (M + 1 to R).
+4. After sorting both halves, call the Merge function to combine them into a sorted segment.
+5. In Merge, copy the left and right halves into temporary arrays.
+6. Use three pointers (i for arr, j for left, and k for right) to merge the two sorted arrays back into arr.
+7. After the merging process, return the sorted array from the SortArray method.
