@@ -1,0 +1,5 @@
+1. Initialize a counter int k = 0; to track the number of elements not equal to val.
+2. Loop through the array with for(int i = 0; i < nums.Length; i++).
+3. If nums[i] is not equal to val, assign nums[k] = nums[i]; and increment k.
+4. Continue the loop until all elements have been checked.
+5. Return k, which represents the new length of the array with val removed.
