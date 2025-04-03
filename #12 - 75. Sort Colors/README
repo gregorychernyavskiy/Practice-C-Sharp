@@ -1,0 +1,8 @@
+1. Call the MergeSort helper with the full range of the array (0 to nums.Length - 1).
+2. In MergeSort, return immediately if the range has one or no elements (L >= R).
+3. Find the middle index M = (L + R) / 2, and recursively sort the left half (L to M) and right half (M + 1 to R).
+4. After sorting both halves, call the Merge function to combine them.
+5. In Merge, create a temporary array tmp to hold the sorted elements.
+6. Use two pointers i and j to compare elements from both halves, and fill tmp in sorted order.
+7. Copy any remaining elements from the left or right half into tmp.
+8. Copy the sorted tmp back into the original array segment from L to R.
