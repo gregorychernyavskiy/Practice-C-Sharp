@@ -1,0 +1,3 @@
+1. Start by initializing int n = nums.Length and then create the result array: int[] arr = new int[2 * n];
+2. Use a for loop to fill the array: set arr[i] = nums[i] and arr[i + n] = nums[i] for each i.
+3. Return arr – that’s the final answer.
