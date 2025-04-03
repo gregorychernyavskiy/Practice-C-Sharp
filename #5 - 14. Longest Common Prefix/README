@@ -1,0 +1,5 @@
+1. First, check if the input array strs is null or empty. If so, return an empty string "".
+2. Initialize a string variable prefix to the first string in the array: strs[0].
+3. Loop through each string strs[i] in the array.
+4. Inside the loop, use a while loop to check if the current string starts with the prefix. If not, shorten the prefix by removing the last character using Substring.
+5. Once all strings have been processed, return the final prefix as the longest common prefix.
