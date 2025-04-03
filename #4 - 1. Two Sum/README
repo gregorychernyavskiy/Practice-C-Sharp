@@ -1,0 +1,13 @@
+1. Create a Dictionary<int, int> map = new Dictionary<int, int>(); to store numbers and their indices.
+2. Loop through the array using a for loop. For each nums[i], calculate j = target - nums[i].
+3. Check if map.ContainsKey(j). If it does, return a new array with the indices: new int[]{map[j], i}.
+4. If not, add nums[i] to the map with its index: map[nums[i]] = i.
+5. If no pair is found after the loop, return an empty array new int[]{};.
+
+
+
+
+
+
+
+
