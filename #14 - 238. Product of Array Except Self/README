@@ -1,0 +1,5 @@
+1. First, add everything to the map. If the number is zero, just increment the count to keep track of how many zeroes exist.
+2. Create another for loop. The first if statement checks if the count of zeroes is greater than 1 — this means the output array will be all zeroes.
+3. The second check is if the count is exactly 1 — in this case, only the position of the zero will hold the total product; all other values will be zero.
+4. The last check is for when there are no zeroes — set each element in the result array to total / nums[i].
+5. Finally, return the result array.
