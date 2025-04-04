@@ -1,0 +1,5 @@
+1. Put the numbers and their counts into a map, using the numbers as keys and their frequencies as values.
+2. Create a list of key-value pairs and iterate through the map to add each entry to the list.
+3. Use list.sort with a custom comparator to sort by value in descending order (i.e., compare b.value to a.value).
+4. Create a result array of size k and iterate up to k to add the top frequent elements.
+5. Assign the first k keys from the sorted list to the result array and return it.
