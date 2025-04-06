@@ -11,7 +11,7 @@ public class Solution {
     }
 
     private int[] MergeSort(int[] arr, int L, int R) {
-        if(L == R) {
+        if(L >= R) {
             return arr;
         }
         int M = (L + R) / 2;

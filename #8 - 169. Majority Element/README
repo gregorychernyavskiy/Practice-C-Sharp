@@ -1,0 +1,6 @@
+1. Create a Dictionary<int, int> map = new Dictionary<int, int>(); to count occurrences of each number.
+2. Initialize max = nums[0] and count = 0 to keep track of the current majority element and its count.
+3. Loop through each num in nums. If map.ContainsKey(num), increment its count; otherwise, set map[num] = 1.
+4. After building the frequency map, loop through each entry in the dictionary.
+5. If entry.Value > count, update max to entry.Key and count to entry.Value.
+6. Return max as the majority element.
