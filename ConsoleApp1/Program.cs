@@ -1,5 +1,10 @@
 ﻿using ConsoleApp1.scr.OOP.Encapsulation;
 
-BadBankAccounts BadAccount = new BadBankAccounts();
-BadAccount.balance = 100;
-System.Console.WriteLine(BadAccount.balance);
+BankAccount bankAccount = new BankAccount(100);
+System.Console.WriteLine(bankAccount.GetBalance());
+
+bankAccount.Deposit(50);
+System.Console.WriteLine(bankAccount.GetBalance());
+
+bankAccount.Withdraw(150);
+System.Console.WriteLine(bankAccount.GetBalance());
